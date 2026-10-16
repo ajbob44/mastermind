@@ -57,8 +57,8 @@ print(f"best move: {cp}")
 
 while True:
     
-    w = int(input("w: "))
-    r = int(input("r: "))
+    w = int(input("number of correct in the incorrect spot: "))
+    r = int(input("number of correct in the correct spot: "))
 
     wp = ["e"]*pegs
     for i in range(w):
